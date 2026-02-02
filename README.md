@@ -19,9 +19,9 @@ The scope is intentionally kept minimal to focus on stability, usability, and cl
 
 ## 🚀 Live Application Links
 
-- **Frontend (Live URL):** 
-- **Backend API (Live URL):** 
-- **GitHub Repository:** 
+- **Frontend (Live URL):** https://hrms-lite-assaignment.vercel.app/
+- **Backend API (Live URL):** https://hrms-lite-assaignment.onrender.com
+- **GitHub Repository:** https://github.com/janmejaysahu25/hrms-lite-assaignment
 
 > ⚠️ Both frontend and backend are publicly accessible and connected to each other.
 
