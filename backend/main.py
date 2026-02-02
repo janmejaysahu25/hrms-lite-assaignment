@@ -5,12 +5,13 @@ from routes.attendance import router as attendance_router
 
 app = FastAPI(title="HRMS Lite API")
 
-# ✅ CORS CONFIG (FIXES FRONTEND ERROR)
+# ✅ CORS CONFIG (LOCAL + PRODUCTION)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
+        "http://127.0.0.1:5173",
+        "https://hrms-lite-assaignment.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
